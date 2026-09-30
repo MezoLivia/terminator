@@ -1,0 +1,13 @@
+export default function Terminator ({id, name, seriaNumber}) {
+    return(
+        <div className="bg-light-blue dib br3 pa3 ma2 grow">
+            <img src={`https://robohash.org/${id}?size=180x180`} alt="terminator" />
+
+        <div>
+        <h2>{name}</h2>
+        <p>SN: {seriaNumber}</p>
+        </div>
+
+        </div>
+    )
+}
